@@ -1,0 +1,134 @@
+body{
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    min-width: 600px;
+    max-width: 600px;
+    margin: auto;
+}
+.img-bg{
+    width: 600px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.box-list{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.judul-acara{
+    margin-top: 30px;
+    width: 400px;
+    display: grid;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.box-img{
+    display: flex;
+  justify-content: center;
+}
+.img-logo{
+    width: 225px;
+}
+.judul{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+}
+.list-link{
+    border: solid 2px #fff;
+    width: 400px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.list-link:hover{
+    border: solid 3px #ffc31b;
+    width: 400px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    color:#ffc31b;
+}
+.a-link{
+    text-decoration: none;
+}
+
+@media screen and (max-width:576px) {
+    .wrapper{
+        min-width: 450px;
+        max-width: 450px;
+        margin: auto;
+    }
+    .img-bg{
+        width: 450px;
+        border-radius: 10px;
+        margin-top: 15px;
+    }
+    .box-list{
+        width: 450px;
+        height: 500px;
+        position: absolute;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+    .list-link{
+        border: solid 2px #fff;
+        width: 300px;
+        padding: 10px;
+        text-align: center;
+        border-radius: 5px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+    .list-link:hover{
+        border: solid 3px #ffc31b;
+        width: 300px;
+        padding: 10px;
+        text-align: center;
+        border-radius: 5px;
+        font-size: 24px;
+        font-weight: bold;
+        color:#ffc31b;
+    }
+    .judul-acara{
+        margin-top: 30px;
+        width: 300px;
+        display: grid;
+        justify-content: center;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    .img-logo{
+        width: 200px;
+    }
+    .judul{
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        color: #fff;
+        text-shadow: 1px 1px 1px #000;
+    }
+}
